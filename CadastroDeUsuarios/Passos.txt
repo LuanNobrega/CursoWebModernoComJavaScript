@@ -1,0 +1,78 @@
+AULA 001 - IMPLEMENTANDO O BACKEND (JSON SERVER)
+
+1° Criar o arquivo package.json utilizando o comando "npm init -y";
+2° Instalar as dependencias a partir do comando "npm i --save json-server@0.13.0 -E";
+3° Dentro da pasta "backend" criar o arquivo "db.json" - Que será o responsável de criar a estrutura básica de web service de usuário.
+4° No package.json, apagar o script "test" e criar o "start": "json-server --watch db.json --port 3001";
+5° OBS: O backend ficará na porta 3001 e o frontend ficará na porta 3000.
+6° Rodar o script start a partir de "npm start";
+
+
+AULA 002 - CRIANDO O PROJETO frontend
+
+1° Instale o create-react-app globalmente:
+Execute o seguinte comando no seu terminal para instalar o create-react-app globalmente:
+2° Executar o comando "npx create-react-app frontend " para desenvolver o frontend utilizando react;
+3° Instaçar as seguintes dependencias dentro do package.json: 
+    "axios": "0.18.0",
+    "bootstrap": "4.1.1",
+    "font-awesome": "4.7.0", - Biblioteca de font de incones
+    "react-router": "4.2.0", - Serve para navegar pelos componentes; 
+    "react-router-dom": "4.2.2", - 
+4° Entrar dentro da pasta "frontend" e executar o comando "npm i" para instalar as dependencias listdas a cima. 
+5° Executar o comando "npm start" dentro da pasta frontend 
+
+
+AULA 003 -Criar a estrutura da aplicação;
+
+1° Criar as pastas necessárias para a criação do projeto, "components" e dentro dela a "template";
+2° Criar os arquivos dentro de "template". 
+    Logo, Nav, Header, Main e Footer.
+3° Dentro de src, criar uma pasta "main" e adicionar os arquivos.  
+    App.jsx e App.css. 
+    Apagar da pasta principal os arquivos de App.js, App.css, AppTest e Logo. 
+
+
+AULA 004 - Aplicando Estilo (CSS Grid)
+
+1° Estilizar a aplicação pelo App.css
+
+
+AULA 005 - Componente Logo
+
+1° Criar pasta "assets"dentro de src, dentro del (assets) criar a pasta "images"
+2° Importar imagem;
+
+AULA 006 - Cabeçalho
+
+1° Importar dentro de App.jsx as dependências do "bootstrap" e da "font-awesome" que colocamos no package.json. 
+2° Colocar propriedade no componete "main" do arquivo "App.jsx" e em seguida adicionar "{...props} no componente "Header" do arquivo "main.jsx". 
+
+
+AULA 007 - Rodapé
+
+1° Codificar o Footer.jsx e o Footer.css;
+
+
+AULA 008 - Navegação
+
+1°  Codificar o componente navegacao.jsx e o componente navegacao.css
+
+
+AULA 009 - Conteúdo
+
+1° Criada uma pasta "home" dentro de "components" e criou o arquivo "home.jsx". 
+2° Pegou o que tinha dentro de "Main" do arquivo App.jsx e colou dentro de Home.jsx;
+3° Importou o Home.jsx dentro de App.jsx
+
+
+AULA 010 - Componente cadastro
+
+1° Codificar em UserCrud.jsx
+
+
+AULA 011 - Implementando as rotas
+
+1° Criar dentro da pasta main o arquivo "Routes.jsx"
+2° 
+
